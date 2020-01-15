@@ -1,6 +1,6 @@
 # 基于Yolov3的无瞄点的One-Stage目标检测算法
 
-## 1、Our goal
+## 1、目标
 
 - 抛弃特征金字塔思想，在多个特征图上做预测
 - 抛弃基于Anchor的目标检测算法
@@ -52,3 +52,15 @@ method three：Yolo 特征金子塔Anchor Base的分支和Anchor Free分支结�
 `best_model_Epoch_26_step_43361_mAP_0.6013_loss_24.5113_lr_3e-05`
 
 ###### MS-COCO2017数据集，设置batch-szie为8，训练集为MS-COCO train2017,验证集为 val2017，正在训练中
+
+------
+
+
+
+### Credits:
+
+主要借鉴代码来源:
+
+[YunYang1994/tensorflow-yolov3](https://github.com/YunYang1994/tensorflow-yolov3)
+
+[YOLOv3_TensorFlow](https://github.com/wizyoung/YOLOv3_TensorFlow)
